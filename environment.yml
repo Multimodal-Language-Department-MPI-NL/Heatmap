@@ -1,0 +1,19 @@
+name: heatmap
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - r-base=4.3
+  - r-irkernel
+  - r-tidyverse
+  - r-data.table
+  - r-readr
+  - r-ggplot2
+  - pip
+  - pip:
+      - ipykernel
