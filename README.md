@@ -83,12 +83,6 @@ jupyter lab
 Rscript scripts/heatmap.R
 ```
 
-### Basic Usage
-
-1. Place MediaPipe body landmark CSVs in `data/processed/`
-2. Run the notebook to generate normalized heatmaps
-3. Use R script for publication-quality figures
-4. Find outputs in `results/figures/`
 
 ## 📈 Data Format
 
