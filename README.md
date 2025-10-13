@@ -1,5 +1,7 @@
 # Gesture Heatmap Visualization
 
+> Attribution: Cite: [OSF | Extracting Sign Language Articulation from Videos with MediaPipe](https://osf.io/x3pvq/) and [2023.nodalida-1.18.pdf](https://aclanthology.org/2023.nodalida-1.18.pdf)
+
 Generate reproducible heatmaps from MediaPipe body landmark data to visualize gesture space usage patterns across participants.
 
 ## 🔬 Research Context

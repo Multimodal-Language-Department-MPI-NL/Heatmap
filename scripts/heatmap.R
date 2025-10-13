@@ -41,10 +41,11 @@ for (file in files) {
       width = mean(X_LEFT_SHOULDER) - mean(X_RIGHT_SHOULDER),
       # Calculate x-coordinate for the origin
       x_origo = mean(X_RIGHT_SHOULDER) + (mean(X_LEFT_SHOULDER) - mean(X_RIGHT_SHOULDER)) / 2,
-      # Calculate y-coordinate for the origin
+      # Calculate y-coordinate for the origin (mid-shoulder)
       y_origo = mean(c(Y_LEFT_SHOULDER, Y_RIGHT_SHOULDER)),
-      # Calculate body height
-      height = mean(Y_NOSE) - y_origo,
+      # Calculate body height as distance from mid-shoulder to mid-hip
+      y_mid_hip = mean(c(Y_LEFT_HIP, Y_RIGHT_HIP)),
+      height = abs(y_origo - y_mid_hip),
       # Define scaling factors for x and y
       x_factor = 1 / width,
       y_factor = .6 / height,
