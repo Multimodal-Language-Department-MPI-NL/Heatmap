@@ -111,10 +111,10 @@ Rscript scripts/heatmap.R
 
 ## 🔗 Related Projects
 
-- `../MediaPipe_keypoints_extraction/`
-- `../Smoothing/`
-- `../Normalization/`
-- `../Macneillian_Space_and_2D_Size/`
+- `https://github.com/Multimodal-Language-Department-MPI-NL/MediaPipe_keypoints_extraction`
+- `https://github.com/Multimodal-Language-Department-MPI-NL/Smoothing`
+- `https://github.com/Multimodal-Language-Department-MPI-NL/Normalization`
+- `https://github.com/Multimodal-Language-Department-MPI-NL/Macneillian_Space_and_2D_Size`
 
 ## 📖 References
 
