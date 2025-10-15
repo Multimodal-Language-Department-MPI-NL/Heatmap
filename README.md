@@ -6,7 +6,7 @@ Generate reproducible heatmaps from MediaPipe body landmark data to visualize ge
 
 ## 🔬 Research Context
 
-This module creates density-based heatmaps to visualize where participants place their hands during gestures, enabling comparative analysis of gesture space usage patterns. Based on Carl Börstell's work on sign language articulation extraction using MediaPipe.
+This module shows how to generate a scatterplot density heatmap depicting the location of participants’ wrist keypoints during a given movement signal. This visualization shows how participants use space during sign or gesture production.  
 
 ## 🎯 What This Project Does
 
@@ -114,7 +114,7 @@ Rscript scripts/heatmap.R
 - `https://github.com/Multimodal-Language-Department-MPI-NL/MediaPipe_keypoints_extraction`
 - `https://github.com/Multimodal-Language-Department-MPI-NL/Smoothing`
 - `https://github.com/Multimodal-Language-Department-MPI-NL/Normalization`
-- `https://github.com/Multimodal-Language-Department-MPI-NL/Macneillian_Space_and_2D_Size`
+- `https://github.com/Multimodal-Language-Department-MPI-NL/Gesture_Space_Size_and_Volume`
 
 ## 📖 References
 
