@@ -1,6 +1,10 @@
 # Gesture Heatmap Visualization
 
-> Attribution: Cite: [OSF | Extracting Sign Language Articulation from Videos with MediaPipe](https://osf.io/x3pvq/) and [2023.nodalida-1.18.pdf](https://aclanthology.org/2023.nodalida-1.18.pdf)
+## Attribution
+
+The gesture scatterplot code was adapted from **Börstell, C. (2023).** *Extracting sign language articulation from videos with MediaPipe.* In The 24th Nordic Conference on Computational Linguistics (NoDaLiDa).
+
+---
 
 Generate reproducible heatmaps from MediaPipe body landmark data to visualize gesture space usage patterns across participants.
 
